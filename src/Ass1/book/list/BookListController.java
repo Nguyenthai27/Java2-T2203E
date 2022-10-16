@@ -23,7 +23,7 @@ public class BookListController implements Initializable {
 
     public final static String connectionString = "jdbc:mysql://localhost8888/t2203e";
     public final static String user = "root";
-    public final static String pwd = "root";// neu la xampp: "" , mamp: "root"
+    public final static String pwd = "root"; // neu la xampp: "" , mamp: "root"
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
