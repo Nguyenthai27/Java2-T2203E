@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="Ass1.book.create.CreateController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="187.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create a new book" wrappingWidth="226.205078125" />
+      <TextField fx:id="txtName" layoutX="126.0" layoutY="90.0" promptText="BookName" />
+      <TextField fx:id="txtAuthor" layoutX="126.0" layoutY="161.0" promptText="Author" />
+      <TextField fx:id="txtQty" layoutX="126.0" layoutY="230.0" promptText="Qty" />
+      <Button onAction="#submit"  layoutX="350.0" layoutY="313.0" mnemonicParsing="false" text="submit" />
+      <Button onAction="#backToList" layoutX="34.0" layoutY="21.0" mnemonicParsing="false" text="Back" />
+   </children>
+</Pane>
