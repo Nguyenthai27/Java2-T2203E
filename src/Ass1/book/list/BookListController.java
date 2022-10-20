@@ -38,7 +38,7 @@ public class BookListController implements Initializable {
 
         // lay data from database
         try {
-            Connector conn = new Connector();
+            Connector conn = Connector.getInstance();
             String sql_txt = "select * from books";
             ResultSet rs = conn.query(sql_txt);
             while (rs.next()){
